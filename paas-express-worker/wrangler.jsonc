@@ -1,0 +1,16 @@
+{
+	"$schema": "./node_modules/wrangler/config-schema.json",
+	"name": "paas-express-worker",
+	"main": "src/index.ts",
+	"compatibility_date": "2026-10-12",
+	"compatibility_flags": [
+		"nodejs_compat"
+	],
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "paas-students-db",
+			"database_id": "73387005-db02-4ed5-b569-14cb8ef611d1"
+		}
+	]
+}
